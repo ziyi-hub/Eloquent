@@ -1,0 +1,44 @@
+    .card-body{
+        display: flex;
+        height: fit-content;
+        justify-content: center;
+        background-image: url(bg3.jpg);
+        overflow: hidden;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 50%;
+        background-repeat: no-repeat;
+    }
+
+    #login{
+        width: 400px;
+        height: fit-content;
+        padding: 60px 40px;
+        border-radius: 10px;
+        background: rgba(4, 4, 4, 0.56);
+        box-shadow: 0 0 10px mistyrose;
+    }
+
+
+    .upload_container{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #text{
+        text-align: center;
+    }
+
+    #login h2{
+        color: #fff;
+        text-shadow:0 0 10px;
+        text-align: center;
+    }
+
+    input{
+        color: white;
+    }
+
+
+

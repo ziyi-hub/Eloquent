@@ -1,0 +1,12 @@
+# conf/yaml/Product.dcm.yml
+Product:
+  type: entity
+  table: products
+  id:
+    id:
+      type: integer
+      generator: AUTO INCREMENT
+        strategy: AUTO
+  fields:
+    name:
+      type: string
